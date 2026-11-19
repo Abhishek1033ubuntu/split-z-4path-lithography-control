@@ -1,0 +1,7 @@
+# SI Unit Mapping & Implementer Reference
+
+* **Focal & Edge Accuracy:** Production RMS focal error ~36.6–38.1 pm, worst-case production peak ≤ 0.1134 nm, and worst-case margin alignment peak ≤ 0.1839 nm against a 0.30 nm sub-nm budget and ±22.31 nm High-NA EUV Rayleigh half-DOF (λ = 13.5 nm, NA = 0.55). Interferometric/capacitive focus metrology should target ≤ 10–20 pm RMS at a 10 kHz control loop (Δt = 100 μs).
+* **Substrate Holder (Z<sub>sub</sub>):** Coarse/infrequent axial datum (`mass = 1.0`, `k = 1600`, `c = 85`, `max_force = 1500` in simulation). Map `mass` to chuck/stage moving mass (kg) and `k` to vertical flexure stiffness (N/m) with smooth, well-damped alignment transitions.
+* **Per-Path Focus & Attitude (Z<sub>lens</sub>, θ<sub>x</sub>, θ<sub>y</sub>):** Fast local trim across four paths (`P1`–`P4`) (`mass = 0.14–0.16`, `k = 2600–2800`, `c = 50–55`). Map to low-inertia per-branch actuators while keeping force saturation ratio &lt; 1.0.
+* **Circular Substrate & 4-Path Disjoint Zones:** Four non-overlapping active quadrants inside R<sub>active</sub> = 1.65 with an outer alignment margin ring (1.65 &lt; r ≤ 2.00). Scale radii to physical wafer dimensions (e.g., 75 mm, 100 mm, or 150 mm) and enforce strict coordinate/tile guard bands.
+* **Pre-Diamond Thermal-Drain Baseline:** `r_th = 4.0–4.5`, `c_th = 1.2–1.5`. Map to physical thermal resistance (K/W) and thermal capacitance (J/K); current multi-wafer runs keep ΔT in the sub-mK to low-mK range.
