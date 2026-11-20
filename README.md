@@ -35,9 +35,10 @@
 ## Repository Layout
 
 - **src/:** Progression of simulation testbenches (`sim_testbench_v5.py` through `sim_testbench_v12_stress.py`).
-- **docs/:** SI unit mapping (`docs/si_unit_mapping.md`) and operational trade-off guidelines (`docs/trade_off_guidelines.md`).
+- **docs/:** Comprehensive development report (`docs/comprehensive_development_report.md`), SI unit mapping (`docs/si_unit_mapping.md`), and operational trade-off guidelines (`docs/trade_off_guidelines.md`).
 - **figures/:** Generated plot outputs (`*.png`) from simulation runs.
 - **References.md:** Literature/case-study pointers and intellectual property notice.
+
 ```
 split-z-4path-lithography-control/
 ├── README.md
@@ -54,6 +55,7 @@ split-z-4path-lithography-control/
 │   ├── sim_testbench_v11.py
 │   └── sim_testbench_v12_stress.py
 ├── docs/
+│   ├── comprehensive_development_report.md
 │   ├── si_unit_mapping.md
 │   └── trade_off_guidelines.md
 └── figures/
