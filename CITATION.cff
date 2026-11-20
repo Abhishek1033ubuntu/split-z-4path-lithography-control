@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Precision Split-Z Multi-Path Lithography Etching Subsystem"
+message: "If you use this software or simulation framework in your research, please cite it using the metadata from this file."
+type: software
+authors:
+  - given-names: Abhishek
+    family-names: Singh
+    email: abhishek1033@gmail.com
+    orcid: "https://orcid.org/0009-0004-6913-096X"
+repository-code: "https://github.com/Abhishek1033ubuntu/split-z-4path-lithography-control"
+url: "https://github.com/Abhishek1033ubuntu/split-z-4path-lithography-control"
+abstract: "Hardware-agnostic, multi-physics control and scheduling simulation suite (v5-v12) for precision Split-Z multi-path lithographic etching, pairing coarse substrate datum positioning with fast per-path focus and attitude trimming across four disjoint active quadrants on a circular substrate."
+keywords:
+  - lithography
+  - control-systems
+  - sliding-mode-control
+  - multi-physics
+  - semiconductor-manufacturing
+  - euv-lithography
+  - precision-motion
+  - hysteresis-compensation
+  - thermal-management
+license: MIT
+version: 1.0.0
+date-released: "2026-11-20"
