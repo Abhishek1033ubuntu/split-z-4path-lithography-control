@@ -5,6 +5,7 @@
 ![Simulation: NumPy + Matplotlib](https://img.shields.io/badge/Simulation-NumPy%20%2B%20Matplotlib-013243.svg)
 ![AI Collaborator: Google Gemini](https://img.shields.io/badge/AI%20Collaborator-Google%20Gemini-4285F4.svg)
 ![Multi-Physics & Control Support: Team Gemini](https://img.shields.io/badge/Multi--Physics%20%26%20Control%20Support-Team%20Gemini-34A853.svg)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.24391027-blue?style=for-the-badge&logo=zenodo&logoColor=white)](https://doi.org/10.5281/zenodo.24391027)  
 
 - **Architecture Overview:** Hardware-agnostic, multi-physics lithographic etching control model pairing coarse substrate datum alignment (Z<sub>sub</sub>) with fast per-path focus and attitude trimming (Z<sub>lens</sub>, θ<sub>x</sub>, θ<sub>y</sub>) across four disjoint active quadrants on a circular substrate.
 - **Control & Scheduling:** Combines rate-aware hysteresis pre-compensation, boundary-layer sliding-mode control (10 kHz discrete step, Δt = 100 μs), alternating deep/shallow site ordering, and an outer margin alignment window so initial datum handoff transients stay outside active production etching.
